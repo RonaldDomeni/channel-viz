@@ -12,13 +12,13 @@
 		hideForm		= 0;
 	*/
 
-	var defaultKey		= '', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [], // Comma separated array of Xively Feed ID numbers
-		applicationName	= '', // Replaces Xively logo in the header
-		dataDuration	= '', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
-		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
-		dataColor		= '', // CSS HEX value of color to represent data (omit leading #)
-		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
+	var defaultKey		= 'PpOKTYIZ3mBRXorG1QmwytP26lkJQ5uQ8YplDK16HapRcI5v', // Unique master Xively API key to be used as a default
+		defaultFeeds	= [1535050242], // Comma separated array of Xively Feed ID numbers
+		applicationName	= 'Livingprojects Templogger', // Replaces Xively logo in the header
+		dataDuration	= '30days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataInterval	= 5, // Default interval for data to be displayed (in seconds)
+		dataColor	= '', // CSS HEX value of color to represent data (omit leading #)
+		hideForm	= 1; // To hide input form use value of 1, otherwise set to 0
 
 // Function Declarations
 
