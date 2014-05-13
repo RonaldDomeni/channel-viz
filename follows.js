@@ -1,7 +1,7 @@
 (function ( $ ){
 
 	/*
-	EXAMPLE CONFIGURATION
+	EXAMPLE CONFIGURATION 
 
 		var defaultKey	= 'fje329iun52ngtuijo2f4jeun432A', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [61916,12425,94322], // Comma separated array of Xively Feed ID numbers
